@@ -1,0 +1,67 @@
+body {
+    font-family: arial, sans-serif;
+}
+/* TODO: Finish Styling navbar */
+.nav-ul {
+    margin-right: 32px;
+    list-style-type: none;
+    text-align: right;
+    font-size: 13px;
+}
+li {
+    display: inline-block;
+}
+.sign-in {
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #4584ee;
+    border: none;
+    border-radius: 2px;
+}
+.container {
+    text-align: center;
+}
+img {
+    padding-top: 109px;
+    margin-bottom: 32px;
+    align-self: center;
+}
+#searchbox {
+    width: 558px;
+    height: 34px;
+    border-radius: 30px;
+    border: 1px #dfe1e5 solid;
+    padding: 5px 5px 5px 25px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    font-size: 16px;
+}
+#searchbox:hover {
+    border: none;
+    box-shadow: 1px 1px 8px #dfe1e5;
+    outline: none;
+    margin-bottom: 2px;
+}
+#searchbox:focus {
+    border: none;
+    box-shadow: 1px 1px 8px #dfe1e5;
+    outline: none;
+    margin-bottom: 2px;
+}
+.btn-search {
+    margin: 29px 4px;
+    padding: 10px 16px;
+    color: #5f6368;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    background-color: #f2f2f2;
+    border: 1px;
+    border-radius: 4px;
+}
+.btn-search:hover {
+    margin: 28px 3px;
+    background-image: linear-gradient(#f7f7f7, #f1f1f1);
+    border: 1px #c6c6c6 solid;
+}
