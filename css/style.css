@@ -1,24 +1,27 @@
 body {
     font-family: arial, sans-serif;
+    margin: 0px;
 }
-/* TODO: Finish Styling navbar */
 nav {
-    margin: 0 32px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em 30px 0 0;
     right: 32px;
     padding: 0;
     list-style-type: none;
     font-size: 13px;
 }
-a {
+.link {
     color: #212121;
     text-decoration: none;
+    padding: 8px;
 }
-a:hover {
+.link:hover {
     color: #424242;
     text-decoration: underline;
 }
 .google-apps {
-    padding-top: 20px;
+    padding:  10px  10px 10px 10px;
     width: 15px;
     opacity: .65;
 }
@@ -31,7 +34,8 @@ a:hover {
     cursor: pointer;
 }
 .sign-in {
-    padding: 5px 10px;
+    margin-left: 10px;
+    padding: 2px 10px;
     font-weight: bold;
     color: white;
     background-color: #4584ee;
@@ -83,4 +87,36 @@ a:hover {
     margin: 28px 3px;
     background-image: linear-gradient(#f7f7f7, #f1f1f1);
     border: 1px #c6c6c6 solid;
+}
+.language {
+    font-size: 0.8em;
+}
+footer {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f2f2f2;
+    height: 38px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+}
+footer a {
+    float: left;
+    text-decoration: none;
+    color: #5F6368;
+    font-size: 13px;
+    padding: 10px 0px 0px 27px;
+    text-align: center;
+}
+footer a.right {
+    float: right;
+}
+footer a.end {
+    padding-right: 27px;
+}
+footer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
