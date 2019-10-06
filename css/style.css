@@ -42,6 +42,9 @@ nav {
     border: none;
     border-radius: 2px;
 }
+.sign-in:hover {
+    cursor: pointer;
+}
 .container {
     text-align: center;
 }
@@ -119,4 +122,21 @@ footer a.end {
 footer a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+h3.credit {
+    color: gray;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 40%;
+}
+p.credit {
+    color: gray;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+}
+.credit a {
+    color: rgb(153, 153, 153);
 }
